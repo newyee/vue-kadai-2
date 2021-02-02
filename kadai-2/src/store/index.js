@@ -7,7 +7,7 @@ export default new Vuex.Store({
   state: {
     gender: '',
     birthDay: {
-      year: 0,
+      year: 1,
       month: 1,
       date: 1
     },
@@ -26,7 +26,6 @@ export default new Vuex.Store({
   },
   mutations: {
     saveUserData(state, userData) {
-      console.log(userData.birthDay.month)
       state.gender = userData.gender
       state.birthDay.year = userData.birthDay.year
       state.birthDay.month = userData.birthDay.month
