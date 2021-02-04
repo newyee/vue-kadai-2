@@ -5,7 +5,7 @@
     <textarea v-model="message" class="text"></textarea>
     <div>
     <router-link class="back-button" to="/work-sheet">前へ戻る</router-link>
-    <router-link to="" @click.native="clickNextButton">次へ進む</router-link>
+    <router-link to="/Confirm" @click.native="clickNextButton">次へ進む</router-link>
 
     </div>
   </div>

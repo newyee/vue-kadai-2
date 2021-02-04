@@ -21,8 +21,9 @@ export default new Vuex.Store({
   },
   getters: {
     gender: state => state.gender,
-    birthDay: state => state.birthDay
-
+    birthDay: state => state.birthDay,
+    questionTwoBox: state => state.questionTwoBox,
+    message: state => state.message
   },
   mutations: {
     saveUserData(state, userData) {
