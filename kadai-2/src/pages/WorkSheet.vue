@@ -42,7 +42,6 @@ export default {
         questionTwo: this.questionTwo,
         questionThree: this.questionThree
       }
-      console.log(question, 'question')
       this.$store.commit('saveQuestionData', question)
     }
   }
