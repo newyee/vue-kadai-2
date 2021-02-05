@@ -17,7 +17,7 @@
       <p>- ご相談内容 -</p>
       <p>{{ this.$store.getters.message }}</p>
       <router-link to="/consultation">前へ戻る</router-link>
-      <router-link to="/">送信</router-link>
+      <router-link to="">送信</router-link>
     </div>
   </div>
 </template>
