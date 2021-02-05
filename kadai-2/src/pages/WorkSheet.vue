@@ -12,14 +12,14 @@
       たことはありますか？
       <div class="question-two-text">
         <input type="radio" name="questionTwo" value="はい" v-model="questionTwo">はい
-        <input type="radio" value="questionTwo" v-model="questionTwo">いいえ
+        <input type="radio" value="いいえ" v-model="questionTwo">いいえ
       </div>
     </div>
     <div v-if="questionTwo != '' ">過去5年以内に、病気や怪我けがで、手術をうけたことまたは継続して7日以上の入院
     をしたことがありますか？
       <div class="question-three-text">
         <input type="radio" name="questionThree" value="はい" v-model="questionThree">はい
-        <input type="radio" value="questionThree" v-model="questionThree">いいえ
+        <input type="radio" value="いいえ" v-model="questionThree">いいえ
       </div>
     </div>
     <router-link to="/" class="backButton">前へ戻る</router-link>

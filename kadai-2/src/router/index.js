@@ -3,13 +3,15 @@ import VueRouter from 'vue-router'
 import BasicInfo from '../pages/BasicInfo'
 import WorkSheet from '../pages/WorkSheet'
 import Consultation from '../pages/Consultation'
+import Confirm from '../pages/Confirm'
 
 Vue.use(VueRouter)
 
 const routes = [
   { path: '/', component: BasicInfo },
   { path: '/work-sheet', component: WorkSheet },
-  { path: '/consultation', component: Consultation }
+  { path: '/consultation', component: Consultation },
+  { path: '/confirm', component: Confirm }
 
 ]
 
